@@ -39,6 +39,9 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             composer.setSubject("iOS Mail App")
             composer.mailComposeDelegate = self
             composer.setMessageBody("<h1><b><center> \(NSLocalizedString("HELLO", comment: "")), Antonio!</center></b></h1>", isHTML: true)
+            let data = UIImageJPEGRepresentation(#imageLiteral(resourceName: "mail"), 0)
+            
+            composer.addAttachmentData(data!, mimeType: "image/jpg", fileName: "iconMail")
             present(composer, animated: true, completion: nil)
         } else {
             print("No tienes cuenta configurada")

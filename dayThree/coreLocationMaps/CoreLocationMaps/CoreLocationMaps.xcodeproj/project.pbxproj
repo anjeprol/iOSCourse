@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B865A67207E7DC40023C05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B865A66207E7DC40023C05E /* AppDelegate.swift */; };
-		2B865A69207E7DC40023C05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B865A68207E7DC40023C05E /* ViewController.swift */; };
-		2B865A6C207E7DC40023C05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B865A6A207E7DC40023C05E /* Main.storyboard */; };
-		2B865A6E207E7DC50023C05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B865A6D207E7DC50023C05E /* Assets.xcassets */; };
-		2B865A71207E7DC50023C05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B865A6F207E7DC50023C05E /* LaunchScreen.storyboard */; };
-		2B865A7A207E83180023C05E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B865A7C207E83180023C05E /* Localizable.strings */; };
+		2B806C00207EA6F9003FE874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B806BFF207EA6F9003FE874 /* AppDelegate.swift */; };
+		2B806C02207EA6F9003FE874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B806C01207EA6F9003FE874 /* ViewController.swift */; };
+		2B806C05207EA6F9003FE874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B806C03207EA6F9003FE874 /* Main.storyboard */; };
+		2B806C07207EA6FA003FE874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B806C06207EA6FA003FE874 /* Assets.xcassets */; };
+		2B806C0A207EA6FA003FE874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B806C08207EA6FA003FE874 /* LaunchScreen.storyboard */; };
+		2B806C12207EBD5C003FE874 /* DF.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B806C11207EBD5B003FE874 /* DF.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B865A63207E7DC40023C05E /* Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B865A66207E7DC40023C05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B865A68207E7DC40023C05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B865A6B207E7DC40023C05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2B865A6D207E7DC50023C05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B865A70207E7DC50023C05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2B865A72207E7DC50023C05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B865A7B207E83180023C05E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2B806BFC207EA6F9003FE874 /* CoreLocationMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocationMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B806BFF207EA6F9003FE874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B806C01207EA6F9003FE874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B806C04207EA6F9003FE874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B806C06207EA6FA003FE874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B806C09207EA6FA003FE874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B806C0B207EA6FA003FE874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B806C11207EBD5B003FE874 /* DF.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DF.json; path = "../../../../../../Documents/iOS11_Intensivo_9Abr/Sesión_03/DF.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B865A60207E7DC40023C05E /* Frameworks */ = {
+		2B806BF9207EA6F9003FE874 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B865A5A207E7DC40023C05E = {
+		2B806BF3207EA6F9003FE874 = {
 			isa = PBXGroup;
 			children = (
-				2B865A65207E7DC40023C05E /* Mail */,
-				2B865A64207E7DC40023C05E /* Products */,
+				2B806BFE207EA6F9003FE874 /* CoreLocationMaps */,
+				2B806BFD207EA6F9003FE874 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B865A64207E7DC40023C05E /* Products */ = {
+		2B806BFD207EA6F9003FE874 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B865A63207E7DC40023C05E /* Mail.app */,
+				2B806BFC207EA6F9003FE874 /* CoreLocationMaps.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B865A65207E7DC40023C05E /* Mail */ = {
+		2B806BFE207EA6F9003FE874 /* CoreLocationMaps */ = {
 			isa = PBXGroup;
 			children = (
-				2B865A66207E7DC40023C05E /* AppDelegate.swift */,
-				2B865A68207E7DC40023C05E /* ViewController.swift */,
-				2B865A6A207E7DC40023C05E /* Main.storyboard */,
-				2B865A6D207E7DC50023C05E /* Assets.xcassets */,
-				2B865A6F207E7DC50023C05E /* LaunchScreen.storyboard */,
-				2B865A72207E7DC50023C05E /* Info.plist */,
-				2B865A7C207E83180023C05E /* Localizable.strings */,
+				2B806C11207EBD5B003FE874 /* DF.json */,
+				2B806BFF207EA6F9003FE874 /* AppDelegate.swift */,
+				2B806C01207EA6F9003FE874 /* ViewController.swift */,
+				2B806C03207EA6F9003FE874 /* Main.storyboard */,
+				2B806C06207EA6FA003FE874 /* Assets.xcassets */,
+				2B806C08207EA6FA003FE874 /* LaunchScreen.storyboard */,
+				2B806C0B207EA6FA003FE874 /* Info.plist */,
 			);
-			path = Mail;
+			path = CoreLocationMaps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B865A62207E7DC40023C05E /* Mail */ = {
+		2B806BFB207EA6F9003FE874 /* CoreLocationMaps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B865A75207E7DC50023C05E /* Build configuration list for PBXNativeTarget "Mail" */;
+			buildConfigurationList = 2B806C0E207EA6FA003FE874 /* Build configuration list for PBXNativeTarget "CoreLocationMaps" */;
 			buildPhases = (
-				2B865A5F207E7DC40023C05E /* Sources */,
-				2B865A60207E7DC40023C05E /* Frameworks */,
-				2B865A61207E7DC40023C05E /* Resources */,
+				2B806BF8207EA6F9003FE874 /* Sources */,
+				2B806BF9207EA6F9003FE874 /* Frameworks */,
+				2B806BFA207EA6F9003FE874 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mail;
-			productName = Mail;
-			productReference = 2B865A63207E7DC40023C05E /* Mail.app */;
+			name = CoreLocationMaps;
+			productName = CoreLocationMaps;
+			productReference = 2B806BFC207EA6F9003FE874 /* CoreLocationMaps.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B865A5B207E7DC40023C05E /* Project object */ = {
+		2B806BF4207EA6F9003FE874 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Antonio Prado";
 				TargetAttributes = {
-					2B865A62207E7DC40023C05E = {
+					2B806BFB207EA6F9003FE874 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 2B865A5E207E7DC40023C05E /* Build configuration list for PBXProject "Mail" */;
+			buildConfigurationList = 2B806BF7207EA6F9003FE874 /* Build configuration list for PBXProject "CoreLocationMaps" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,71 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 2B865A5A207E7DC40023C05E;
-			productRefGroup = 2B865A64207E7DC40023C05E /* Products */;
+			mainGroup = 2B806BF3207EA6F9003FE874;
+			productRefGroup = 2B806BFD207EA6F9003FE874 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B865A62207E7DC40023C05E /* Mail */,
+				2B806BFB207EA6F9003FE874 /* CoreLocationMaps */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B865A61207E7DC40023C05E /* Resources */ = {
+		2B806BFA207EA6F9003FE874 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B865A71207E7DC50023C05E /* LaunchScreen.storyboard in Resources */,
-				2B865A7A207E83180023C05E /* Localizable.strings in Resources */,
-				2B865A6E207E7DC50023C05E /* Assets.xcassets in Resources */,
-				2B865A6C207E7DC40023C05E /* Main.storyboard in Resources */,
+				2B806C0A207EA6FA003FE874 /* LaunchScreen.storyboard in Resources */,
+				2B806C12207EBD5C003FE874 /* DF.json in Resources */,
+				2B806C07207EA6FA003FE874 /* Assets.xcassets in Resources */,
+				2B806C05207EA6F9003FE874 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B865A5F207E7DC40023C05E /* Sources */ = {
+		2B806BF8207EA6F9003FE874 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B865A69207E7DC40023C05E /* ViewController.swift in Sources */,
-				2B865A67207E7DC40023C05E /* AppDelegate.swift in Sources */,
+				2B806C02207EA6F9003FE874 /* ViewController.swift in Sources */,
+				2B806C00207EA6F9003FE874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B865A6A207E7DC40023C05E /* Main.storyboard */ = {
+		2B806C03207EA6F9003FE874 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2B865A6B207E7DC40023C05E /* Base */,
+				2B806C04207EA6F9003FE874 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2B865A6F207E7DC50023C05E /* LaunchScreen.storyboard */ = {
+		2B806C08207EA6FA003FE874 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2B865A70207E7DC50023C05E /* Base */,
+				2B806C09207EA6FA003FE874 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2B865A7C207E83180023C05E /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B865A7B207E83180023C05E /* en */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2B865A73207E7DC50023C05E /* Debug */ = {
+		2B806C0C207EA6FA003FE874 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		2B865A74207E7DC50023C05E /* Release */ = {
+		2B806C0D207EA6FA003FE874 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -288,38 +280,38 @@
 			};
 			name = Release;
 		};
-		2B865A76207E7DC50023C05E /* Debug */ = {
+		2B806C0F207EA6FA003FE874 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHRNHFD876;
-				INFOPLIST_FILE = Mail/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				INFOPLIST_FILE = CoreLocationMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Home.Mail;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.CoreLocationMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2B865A77207E7DC50023C05E /* Release */ = {
+		2B806C10207EA6FA003FE874 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHRNHFD876;
-				INFOPLIST_FILE = Mail/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				INFOPLIST_FILE = CoreLocationMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Home.Mail;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.CoreLocationMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B865A5E207E7DC40023C05E /* Build configuration list for PBXProject "Mail" */ = {
+		2B806BF7207EA6F9003FE874 /* Build configuration list for PBXProject "CoreLocationMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B865A73207E7DC50023C05E /* Debug */,
-				2B865A74207E7DC50023C05E /* Release */,
+				2B806C0C207EA6FA003FE874 /* Debug */,
+				2B806C0D207EA6FA003FE874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B865A75207E7DC50023C05E /* Build configuration list for PBXNativeTarget "Mail" */ = {
+		2B806C0E207EA6FA003FE874 /* Build configuration list for PBXNativeTarget "CoreLocationMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B865A76207E7DC50023C05E /* Debug */,
-				2B865A77207E7DC50023C05E /* Release */,
+				2B806C0F207EA6FA003FE874 /* Debug */,
+				2B806C10207EA6FA003FE874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B865A5B207E7DC40023C05E /* Project object */;
+	rootObject = 2B806BF4207EA6F9003FE874 /* Project object */;
 }

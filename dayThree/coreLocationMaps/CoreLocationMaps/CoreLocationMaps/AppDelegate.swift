@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Mail
+//  CoreLocationMaps
 //
 //  Created by Antonio Prado on 4/11/18.
 //  Copyright © 2018 Antonio Prado. All rights reserved.
@@ -16,13 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let mailVC = ViewController()
-        let navigationC = UINavigationController(rootViewController: mailVC)
-        window?.rootViewController = navigationC
-        window?.makeKeyAndVisible()
-        window?.backgroundColor = .white
         return true
     }
 
